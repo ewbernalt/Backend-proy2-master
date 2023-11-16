@@ -1,0 +1,24 @@
+npm init -y
+npm i express
+
+Se agrega la sgte linea a package.json
+"type":"module",
+
+Nodemon como dependencia de desarrollo
+npm i nodemon -D
+
+Se agrega la sgte linea a package.json
+"dev":"nodemon index.js"
+
+Para correr el programa:
+npm run dev
+
+npm i mysql2
+
+npm i dotenv
+
+En produccion utilizo el comando:
+"start": "node src/index.js"
+En desarrollo utilizo el comando:
+"dev": "nodemon src/index.js"
+
